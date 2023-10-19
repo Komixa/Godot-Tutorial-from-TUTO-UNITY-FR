@@ -45,8 +45,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_18mos"]
-radius = 6.8
-height = 16.8
+radius = 25.0
+height = 68.0
 
 [node name="Enemies" type="RigidBody2D"]
 collision_mask = 0
@@ -58,7 +58,7 @@ metadata/_edit_group_ = true
 texture_filter = 1
 scale = Vector2(5, 5)
 sprite_frames = SubResource("SpriteFrames_cbko0")
-animation = &"ghost"
+animation = &"skeleton"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_18mos")
